@@ -69,10 +69,10 @@ public class Main {
         //socioDAO.asignarSocio(19, 10);
 
 
-        Gimnasio g = new Gimnasio("Gym Test", "Sevilla", 30.00);
+        Gimnasio g = new Gimnasio("Centro Pokemon", "Sevilla", 44.00);
         gimnasioDAO.insertarGimnasio(g);
         g.setId(11);
-        gimnasioDAO.actualizarGimnasio(11, "Gym Test Actualizado", null, null);
+        gimnasioDAO.actualizarGimnasio(11, "Centro Terrymon", null, null);
         gimnasioDAO.borrarGimnasio(11);
         System.out.println(gimnasioDAO.obtenerSociosDeGimnasio(1));
         System.out.println(gimnasioDAO.getNumeroSociosPorGimnasio());
